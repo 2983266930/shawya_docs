@@ -177,7 +177,7 @@ export default hopeTheme({
         isSearchable: (page) => {
           // 为每个文档文件夹加搜索路径配置
           const decodedPath = decodeURIComponent(page.path);
-          return decodedPath.startsWith("/instruction/") || decodedPath.startsWith("/DIMP_url/");
+          return decodedPath.startsWith("/demo/");
 
         },
       },
